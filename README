@@ -1,0 +1,7 @@
+Zaheer Mohiuddin
+3/28/2012
+
+As a student I like visualizing concepts whenever possible. In an attempt to
+visualize O-notation more, I created a simple interactive graph using flot.
+
+Problems: Resizing page does not change graph size yet

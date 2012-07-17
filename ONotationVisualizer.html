@@ -45,6 +45,20 @@
     <script language="javascript" type="text/javascript" src="http://people.iola.dk/olau/flot/jquery.flot.crosshair.js"></script>
     <script language="javascript" type="text/javascript" src="http://people.iola.dk/olau/flot/jquery.flot.resize.js"></script>
     <script language="javascript" type="text/javascript" src="http://people.iola.dk/olau/flot/jquery.flot.navigate.js"></script>
+    <script type="text/javascript">
+	
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-31235501-1']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	
+	</script>
+ 
  </head>
     <body>
     <table>
@@ -87,8 +101,8 @@ $(function () {
                             series: { lines: { show: true } },
                             crosshair: { mode: "x" },
                             grid: { hoverable: true, autoHighlight: false },
-                            xaxis: { min: -.2, max: 8, zoomRange: [0.1, 5], panRange: [-.2, 25], tickSize: 1 },
-							yaxis: { min: -.2, max: 8, zoomRange: [0.1, 5], panRange: [-.2, 25], tickSize: 1 },
+                            xaxis: { min: -.2, max: 20, zoomRange: [0.1, 5], panRange: [-.2, 25], tickSize: 1 },
+							yaxis: { min: -.2, max: 20, zoomRange: [0.1, 5], panRange: [-.2, 25], tickSize: 1 },
 							zoom: {
 								interactive: true
 							},
